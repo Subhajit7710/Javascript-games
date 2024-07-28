@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #FEFFEA;
+  text-align: center;
+}
+.navbar{
+  height:100px;
+  background-color: #424242;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+.icon{
+  width:150px;
+  height:150px;
+  border:none;
+  border-radius: 50%;
+  background-color: #FAF0CA;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.8);
+}
+.icons-body{
+   height:300px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   gap:25px;
+}
+
+.userComp-body{
+  display:flex;
+  
+  font-size :2rem;
+  font-weight: 400;
+  gap:25px;
+  padding:10px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.uc{
+  width:200px;
+  height:150px;
+  background-color: #4C4C47;
+  color:white;
+ display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border-radius: 20px;;
+ 
+}
+.result-box{
+    margin-top: 40px;
+}
